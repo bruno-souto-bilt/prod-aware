@@ -10,5 +10,11 @@
     {
       "domain": "console.cloud.google.com",
       "url_parameter": {"name": "project", "value": "bilt-prod"}
+    },
+    {
+      "domain": "retool.internal.biltrewards.com"
+    },
+    {
+      "domain": "pgadmin.internal.biltrewards.com"
     }
   ]
