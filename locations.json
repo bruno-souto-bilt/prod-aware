@@ -1,0 +1,14 @@
+[
+    {
+      "domain": "www.google.com",
+      "url_parameter": {"name": "q", "value": "prod"}
+    },
+    {
+      "domain": "console.cloud.google.com",
+      "url_parameter": {"name": "project", "value": "production-429415"}
+    },
+    {
+      "domain": "console.cloud.google.com",
+      "url_parameter": {"name": "project", "value": "bilt-prod"}
+    }
+  ]

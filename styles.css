@@ -1,0 +1,27 @@
+#production-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+body.production-banner-active {
+    margin-top: 50px;
+}

@@ -1,0 +1,39 @@
+{
+    "name": "Prod Aware",
+    "version": "0.1",
+    "manifest_version": 3,
+    "description": "Adds a banner to the top of pages.",
+    "icons": {
+        "16": "/images/pa-16.png",
+        "48": "/images/pa-48.png",
+        "128": "/images/pa-128.png"
+      },    "action": {
+        "default_title": "Prod Aware",
+        "default_popup": "/html/popup.html"
+      },
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "scripting",
+        "webNavigation",
+        "storage"
+    ],
+    "background": {
+        "service_worker": "/scripts/background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "/scripts/location_client.js",
+                "/scripts/content.js"
+            ],
+            "css": ["styles.css"],
+            "type": "module",
+            "run_at": "document_end"
+
+        }
+    ]
+}
