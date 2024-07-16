@@ -16,5 +16,8 @@
     },
     {
       "domain": "pgadmin.internal.biltrewards.com"
+    },
+    {
+      "domain": "redis.internal.biltrewards.com"
     }
   ]
